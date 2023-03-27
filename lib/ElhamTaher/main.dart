@@ -1,4 +1,6 @@
+import 'dart:html';
 import 'package:flutter/material.dart';
+import 'package:insta_feed/ElhamTaher/activitycall.dart';
 import 'package:insta_feed/ElhamTaher/note.dart';
 
 void main() {
@@ -25,7 +27,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Activity(),
+      home:asasi(),
     );
   }
 }
