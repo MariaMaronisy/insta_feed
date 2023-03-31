@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:insta_feed/DastanHishyar/Message.dart';
+import 'package:insta_feed/DastanHishyar/chat.dart';
 import 'package:insta_feed/MariaNahmat/homescreen.dart';
 
 void main() {
@@ -17,6 +19,8 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const homescreen(),
+        MessagesPage.id: (context) => MessagesPage(),
+        ChatPage.id: (context) => ChatPage()
       },
     );
   }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:insta_feed/DastanHishyar/Message.dart';
 import 'package:insta_feed/MariaNahmat/postwidget.dart';
 import 'package:insta_feed/MariaNahmat/storywidget.dart';
 
@@ -35,7 +36,9 @@ class homescreen extends StatelessWidget {
               Icons.send_outlined,
               color: Colors.black,
             ),
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pushNamed(context, MessagesPage.id);
+            },
           )
         ],
       ),
