@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:insta_feed/DastanHishyar/Message.dart';
+import 'package:insta_feed/ElhamTaher/activitycall.dart';
 import 'package:insta_feed/MariaNahmat/postwidget.dart';
 import 'package:insta_feed/MariaNahmat/storywidget.dart';
 
@@ -51,24 +52,21 @@ class homescreen extends StatelessWidget {
         showUnselectedLabels: false,
         unselectedItemColor: Colors.grey.shade700,
         selectedItemColor: Colors.black,
-        items: const [
+        items: [
           BottomNavigationBarItem(
               icon: Icon(Icons.home_outlined), label: 'Home'),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.search,
-            ),
-            label: 'search',
-          ),
           BottomNavigationBarItem(
               icon: Icon(
                 Icons.camera_alt_outlined,
               ),
               label: 'add photo'),
           BottomNavigationBarItem(
-              icon: Icon(
-                Icons.favorite_border,
-              ),
+              icon: IconButton(
+                  icon: const Icon(
+                    Icons.favorite_outline,
+                    color: Colors.black,
+                  ),
+                  onPressed: () {}),
               label: ' favorite'),
           BottomNavigationBarItem(
             icon: Icon(
