@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:insta_feed/DastanHishyar/chat.dart';
+
 import 'package:insta_feed/DastanHishyar/messagewidget.dart';
 
 class MessagesPage extends StatelessWidget {
@@ -25,14 +25,13 @@ class MessagesPage extends StatelessWidget {
       "pseudo": 'nick',
       "photoProfile": "images/man1.jpg",
       "message": "😩 good food, contact with different people",
-      "time":
-          "🤩😱 Loock amazing,contact with different people, what do you like to see ?"
+      "time": "sent 4h ago"
     },
     {
       "pseudo": 'sammy',
       "photoProfile": "images/woman.jpg",
       "message": "😭😩 bad and irregular food, contact with different people",
-      "time": "😭😩 bad and irregular food, contact with different people"
+      "time": "😭😩"
     },
     {
       "pseudo": 'sky',
@@ -45,6 +44,24 @@ class MessagesPage extends StatelessWidget {
       "photoProfile": "images/skate.jpg",
       "message": "how you been?",
       "time": "sent 3h ago"
+    },
+    {
+      "pseudo": 'holly',
+      "photoProfile": "images/vibes.jpg",
+      "message": "how you been?",
+      "time": "how you been?"
+    },
+    {
+      "pseudo": 'alley',
+      "photoProfile": "images/water.jpg",
+      "message": "how you been?",
+      "time": "sent 2h ago"
+    },
+    {
+      "pseudo": 'mike',
+      "photoProfile": "images/football.jpg",
+      "message": "how you been?",
+      "time": "sent 6h ago"
     },
   ];
 
@@ -137,9 +154,7 @@ class MessagesPage extends StatelessWidget {
           Column(
             children: messageItems.map((message) {
               return GestureDetector(
-                onTap: () {
-                  Navigator.pushNamed(context, ChatPage.id);
-                },
+                onTap: () {},
                 child: MessageWidget(
                   pseudo: message['pseudo'],
                   image: message['photoProfile'],

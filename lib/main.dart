@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:insta_feed/DastanHishyar/Message.dart';
-import 'package:insta_feed/DastanHishyar/chat.dart';
+
 import 'package:insta_feed/ElhamTaher/activitycall.dart';
 import 'package:insta_feed/MariaNahmat/homescreen.dart';
 
@@ -21,7 +21,6 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => const homescreen(),
         MessagesPage.id: (context) => MessagesPage(),
-        ChatPage.id: (context) => ChatPage(),
       },
     );
   }
