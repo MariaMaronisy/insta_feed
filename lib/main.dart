@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:insta_feed/DastanHishyar/Message.dart';
+import 'package:insta_feed/MariaNahmat/Message.dart';
 
-import 'package:insta_feed/ElhamTaher/activitycall.dart';
 import 'package:insta_feed/MariaNahmat/homescreen.dart';
 
 void main() {
