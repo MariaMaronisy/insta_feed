@@ -84,7 +84,7 @@ class MessagesPage extends StatelessWidget {
                   },
                   icon: const Icon(Icons.arrow_back_ios_outlined)),
               Text(
-                messageItems[0]['pseudo'],
+                'home',
                 style: const TextStyle(color: Colors.black, fontSize: 15),
               ),
             ],

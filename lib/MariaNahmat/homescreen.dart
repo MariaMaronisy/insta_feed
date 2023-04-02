@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:insta_feed/ElhamTaher/activitycall.dart';
 import 'package:insta_feed/MariaNahmat/Message.dart';
 
 import 'package:insta_feed/MariaNahmat/postwidget.dart';
@@ -66,7 +67,9 @@ class homescreen extends StatelessWidget {
                     Icons.favorite_outline,
                     color: Colors.black,
                   ),
-                  onPressed: () {}),
+                  onPressed: () {
+                    Navigator.pushNamed(context, Notefication.id);
+                  }),
               label: ' favorite'),
           BottomNavigationBarItem(
             icon: Icon(

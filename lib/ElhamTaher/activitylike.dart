@@ -38,7 +38,7 @@ class ActivityLike extends StatelessWidget {
                               AssetImage(activitylist[index].follower2))),
                   Positioned(
                     top: 20,
-                    right: 30,
+                    right: 5,
                     child: Image.asset(
                       activitylist[index].emg,
                       width: 60,
@@ -51,7 +51,7 @@ class ActivityLike extends StatelessWidget {
                       child: Text(
                         activitylist[index].text,
                         style: TextStyle(
-                            fontSize: 15,
+                            fontSize: 13,
                             color: Color.fromARGB(255, 0, 5, 8),
                             fontWeight: FontWeight.w600),
                       )),

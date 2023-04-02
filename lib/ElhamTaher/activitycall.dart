@@ -6,25 +6,32 @@ import 'package:insta_feed/ElhamTaher/data.dart';
 
 class Notefication extends StatelessWidget {
   const Notefication({super.key});
-
+  static const id = '/notification';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+          iconTheme: const IconThemeData(
+            color: Colors.black, //change your color here
+          ),
           elevation: 0,
           backgroundColor: Colors.white,
-          title: Row(children: [
-            Icon(
-              Icons.arrow_back,
-              color: Colors.black,
-            ),
-            SizedBox(width: 10),
-            Text("Notifications",
-                style: TextStyle(
-                    fontSize: 25,
-                    fontWeight: FontWeight.w700,
-                    color: Colors.black))
-          ])),
+          automaticallyImplyLeading: false,
+          titleSpacing: 0,
+          title: Row(
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: [
+              IconButton(
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
+                  icon: const Icon(Icons.arrow_back_ios_outlined)),
+              Text(
+                'Notification',
+                style: const TextStyle(color: Colors.black, fontSize: 20),
+              ),
+            ],
+          )),
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,

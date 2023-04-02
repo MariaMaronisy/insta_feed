@@ -59,7 +59,7 @@ class ActivityFollow extends StatelessWidget {
                       )),
                   Positioned(
                       top: 30,
-                      right: 20,
+                      right: 5,
                       child: ElevatedButton(
                           onPressed: () {}, child: Text("Follow")))
                 ],
