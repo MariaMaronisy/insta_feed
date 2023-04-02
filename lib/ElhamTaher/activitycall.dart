@@ -6,7 +6,7 @@ import 'package:insta_feed/ElhamTaher/costomFollow.dart';
 
 class asasi extends StatelessWidget {
   const asasi({super.key});
-  static const id = '/asasi';
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
