@@ -6,7 +6,7 @@ class MessagesPage extends StatelessWidget {
   MessagesPage({super.key});
   static const id = '/messages';
 
-  final List messageItems = [
+  List messageItems = [
     {
       "pseudo": 'sarah',
       "photoProfile": "images/woman2.jpg",
