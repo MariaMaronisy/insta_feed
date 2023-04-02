@@ -8,58 +8,43 @@ class MessagesPage extends StatelessWidget {
 
   final List messageItems = [
     {
-      "pseudo": 'Oussama Braiek',
+      "pseudo": 'sarah',
       "photoProfile": "images/woman2.jpg",
       "message":
           "🤩😱 Loock amazing,contact with different people, what do you like to see ?",
       "time": "Sent 14 min ago"
     },
     {
-      "pseudo": 'Lionel Messi',
+      "pseudo": 'sam',
       "photoProfile": "images/man.jpg",
       "message":
           "🤩🤩 good food,contact with different people, contact with different people",
       "time": "Sent 4h ago"
     },
     {
-      "pseudo": 'Cristiano Ronaldo',
+      "pseudo": 'nick',
       "photoProfile": "images/man1.jpg",
       "message": "😩 good food, contact with different people",
       "time":
           "🤩😱 Loock amazing,contact with different people, what do you like to see ?"
     },
     {
-      "pseudo": 'Ed Sheeren',
+      "pseudo": 'sammy',
       "photoProfile": "images/woman.jpg",
       "message": "😭😩 bad and irregular food, contact with different people",
       "time": "😭😩 bad and irregular food, contact with different people"
     },
     {
-      "pseudo": 'Oussama Braiek',
-      "photoProfile": "images/woman2.jpg",
-      "message":
-          "🤩😱 Loock amazing,contact with different people, what do you like to see ?",
-      "time": "Sent 14 min ago"
-    },
-    {
-      "pseudo": 'Lionel Messi',
-      "photoProfile": "images/man.jpg",
-      "message":
-          "🤩🤩 good food,contact with different people, contact with different people",
+      "pseudo": 'sky',
+      "photoProfile": "images/spacepost.jpg",
+      "message": "what a beautiful day <3",
       "time": "Sent 4h ago"
     },
     {
-      "pseudo": 'Cristiano Ronaldo',
-      "photoProfile": "images/man1.jpg",
-      "message": "😩 good food, contact with different people",
-      "time":
-          "🤩😱 Loock amazing,contact with different people, what do you like to see ?"
-    },
-    {
-      "pseudo": 'Ed Sheeren',
-      "photoProfile": "images/woman.jpg",
-      "message": "😭😩 bad and irregular food, contact with different people",
-      "time": "😭😩 bad and irregular food, contact with different people"
+      "pseudo": 'jake',
+      "photoProfile": "images/skate.jpg",
+      "message": "how you been?",
+      "time": "sent 3h ago"
     },
   ];
 
