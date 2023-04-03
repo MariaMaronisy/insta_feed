@@ -95,7 +95,11 @@ class postwidget extends StatelessWidget {
               child: Row(
                 children: [
                   Container(
-                    width: 10,
+                    width: 7,
+                  ),
+                  IconButton(
+                    onPressed: () {},
+                    icon: const Icon(Icons.favorite_outline),
                   ),
                   IconButton(
                     onPressed: () {},

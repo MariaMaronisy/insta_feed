@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:insta_feed/MariaNahmat/messagewidget.dart';
+import 'package:insta_feed/dastan%20hishyar/messagewidget.dart';
 
 class MessagesPage extends StatelessWidget {
   MessagesPage({super.key});
